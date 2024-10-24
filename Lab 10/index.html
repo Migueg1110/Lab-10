@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Gestor de Tareas</h1>
+    <div class="task-input">
+        <input type="text" id="new-task" placeholder="Escribe una nueva tarea">
+        <button id="add-task">Agregar Tarea</button>
+    </div>
+    <div class="columns">
+        <div class="column" id="pending">
+            <h2>Pendiente</h2>
+            <ul class="task-list" id="pending-tasks"></ul>
+        </div>
+        <div class="column" id="in-progress">
+            <h2>Haciendo</h2>
+            <ul class="task-list" id="in-progress-tasks"></ul>
+        </div>
+        <div class="column" id="completed">
+            <h2>Completada</h2>
+            <ul class="task-list" id="completed-tasks"></ul>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
